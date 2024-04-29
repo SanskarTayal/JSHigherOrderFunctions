@@ -7,3 +7,5 @@ function reduce(arr, callback)
     }
     return ans;
 }
+
+export default reduce;

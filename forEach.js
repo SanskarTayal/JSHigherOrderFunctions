@@ -5,3 +5,5 @@ function forEach(arr, callback)
         callback(arr[index]);
     }
 }
+
+export default forEach;

@@ -1,9 +1,11 @@
 function map(arr, callback)
 {
     let ans = [];
-    for(let i=0;i<arr.length;i++)
+    for(let index=0;index<arr.length;index++)
     {
-        ans.push(callback(arr[i]));
+        ans.push(callback(arr[index]));
     }
     return ans;
 }
+
+export default map;
